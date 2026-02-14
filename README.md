@@ -2,7 +2,15 @@
 
 An agent skill that answers questions about support ticket data by combining SQL queries with natural language interpretation.
 
-## Try It Now
+## Install
+
+```bash
+npx skills add elifokaju/support-analytics-agent
+```
+
+Works with Claude Code, Cursor, Windsurf, and [40+ other AI coding agents](https://github.com/vercel-labs/skills).
+
+## Try It Manually
 
 ```bash
 # Clone the repo
