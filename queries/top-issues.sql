@@ -10,6 +10,6 @@ SELECT
      COUNT(CASE WHEN created_at < '2024-02-05' THEN 1 END)) * 100.0 /
     NULLIF(COUNT(CASE WHEN created_at < '2024-02-05' THEN 1 END), 0), 1
   ) as pct_change
-FROM `support_tickets.tickets`
+FROM tickets
 GROUP BY issue_type
 ORDER BY this_week DESC

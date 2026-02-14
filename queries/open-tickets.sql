@@ -5,7 +5,7 @@ SELECT
   issue_type,
   urgency,
   COUNT(*) as open_tickets
-FROM `support_tickets.tickets`
+FROM tickets
 WHERE status = 'open'
 GROUP BY issue_type, urgency
 ORDER BY
