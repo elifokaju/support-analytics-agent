@@ -2,6 +2,32 @@
 
 Answer questions about support ticket data by combining SQL queries with natural language interpretation.
 
+## The Problem
+
+Support managers need quick answers about their tickets: What are the top issues? Is resolution time improving? Where should we focus today?
+
+The data exists in the ticketing system, but getting to it means building reports or writing SQL.
+
+## The Solution
+
+An agent that answers questions instantly. Instead of building a report, you just ask:
+
+> "What are the top issues this week?"
+
+The agent queries the data, interprets the results, and responds:
+
+> "Fraud is your top issue (127 tickets), up 23% from last week. Recommend checking for patterns."
+
+## How It Works
+
+```
+Question → Agent → SQL (pulls data) → Agent (interprets) → Insight
+```
+
+**Capabilities:** Volume questions, trend tracking, top issues, anomaly detection, recommendations
+
+**Output modes:** Quick answers for yourself, or formatted summaries to share with your team
+
 ## Install
 
 ```bash
